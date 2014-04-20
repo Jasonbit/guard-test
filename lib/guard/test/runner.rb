@@ -105,7 +105,8 @@ module Guard
         if drb? || zeus? || spring?
           []
         else
-          ['--', '--runner=guard_test']
+          #['--', '--runner=guard_test']
+          []
         end
       end
 
